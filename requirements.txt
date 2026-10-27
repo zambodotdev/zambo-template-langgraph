@@ -1,0 +1,4 @@
+aer1-langgraph==0.1.7
+langgraph==1.2.18
+langchain-core==1.7.0
+aer1-verify==0.2.19
