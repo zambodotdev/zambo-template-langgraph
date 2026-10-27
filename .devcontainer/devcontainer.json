@@ -1,0 +1,4 @@
+{
+  "name": "zambo-template-langgraph",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12"
+}
