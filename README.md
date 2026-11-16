@@ -20,3 +20,7 @@ full guide: https://zambo.dev/langgraph-handoff-receipts/
 next step: add zambo to your ai in one url, no key, no account: https://zambo.dev/add/?ref=zambo-template-langgraph
 got a receipt link from someone? check it in seconds: https://zambo.dev/verify/
 every call returns a receipt. a receipt proves the saved bytes are unchanged. it does not prove the answer is right.
+
+## If a call is refused
+
+The refusal itself carries that path: a refused call returns a Day Pass checkout link for your saved job, an x402 payment object, and the resume instruction. The job is saved server-side, not lost. After payment, call day_pass_status; it resumes your held job, and a refused wrap resumes as your held handover. Only repeat the refused call if it did not.
